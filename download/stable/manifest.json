@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.2.1909",
+    "version":  "26.2.1913",
     "files":  [
                   {
                       "path":  "ffmpeg.exe",
@@ -28,8 +28,8 @@
                   },
                   {
                       "path":  "ReadSAI2.exe",
-                      "sha256":  "168c77802227bea650843994c4cb8510ee0a87094ff9280935a54b48194a29a5",
-                      "size":  1413632
+                      "sha256":  "e67b6e8be930ffd9547c85455d7a1478eca3057f3b2ff92dffbdb814f44139b6",
+                      "size":  1415168
                   },
                   {
                       "path":  "ReadSAI2.exe.config",
@@ -45,12 +45,7 @@
                       "path":  "TransTextbox.dll",
                       "sha256":  "44291a9cadf9e9fca08175934623d4df1a6730389f407c5b7223da326ae29cfa",
                       "size":  7168
-                  },
-                  {
-                      "path":  "logs\\ReadSAI2_20260219.log",
-                      "sha256":  "6005b6d1e3c35dc3695e85a54b97ec774221b3f2ba5a3dc0e3fb949dcb4075fc",
-                      "size":  3527
                   }
               ],
-    "generatedAtUtc":  "2026-02-19T13:42:44.6951339Z"
+    "generatedAtUtc":  "2026-02-19T14:48:48.9641630Z"
 }
