@@ -1,0 +1,567 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RecSAI 更新中心</title>
+  <style>
+    :root {
+      --bg: #0e0f13;
+      --card: #151821;
+      --text: #eef1f5;
+      --muted: #a6adba;
+      --accent: #53d1b6;
+      --accent-2: #6aa6ff;
+      --accent-soft: rgba(83, 209, 182, 0.14);
+      --border: #2a2f3b;
+      --shadow: rgba(0, 0, 0, 0.35);
+    }
+    body.light {
+      --bg: #f4f6fb;
+      --card: #ffffff;
+      --text: #10141c;
+      --muted: #5b6676;
+      --accent: #4f8cff;
+      --accent-2: #34c4ff;
+      --accent-soft: rgba(79, 140, 255, 0.16);
+      --border: #e1e6ef;
+      --shadow: rgba(16, 20, 28, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: radial-gradient(1200px 600px at 15% -10%, #1b2130 0%, transparent 60%),
+                  radial-gradient(1200px 800px at 110% 10%, #112031 0%, transparent 55%),
+                  var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 48px 16px;
+      transition: background 0.4s ease, color 0.4s ease;
+    }
+    body.light {
+      background: linear-gradient(180deg, #f6f8fc 0%, #eef2f7 100%), var(--bg);
+    }
+    .container {
+      width: 100%;
+      max-width: 980px;
+      display: grid;
+      gap: 24px;
+    }
+    .hero {
+      padding: 28px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #1b2233 0%, #151821 65%);
+      border: 1px solid var(--border);
+      box-shadow: 0 20px 40px var(--shadow);
+      position: relative;
+      overflow: hidden;
+      animation: fadeUp 0.5s ease;
+      z-index: 1;
+      --rx: 0deg;
+      --ry: 0deg;
+      --lift: 0px;
+      transform: translateY(var(--lift)) rotateX(var(--rx)) rotateY(var(--ry));
+      transform-style: preserve-3d;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.3s ease, border-color 0.3s ease;
+    }
+    .hero:hover {
+      --lift: -2px;
+    }
+    body.light .hero {
+      background: linear-gradient(135deg, #f2f6ff 0%, #ffffff 65%);
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: -60% 0 auto 0;
+      height: 140%;
+      background: radial-gradient(380px 140px at 15% 10%, var(--accent-soft), transparent 60%);
+      opacity: 0.8;
+      pointer-events: none;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      letter-spacing: 0.4px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .brand-logo {
+      width: 56px;
+      height: 56px;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.05);
+    }
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: var(--muted);
+      background: transparent;
+      border: 1px solid var(--border);
+      width: 36px;
+      height: 36px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+    }
+    .toggle .icon {
+      width: 20px;
+      height: 20px;
+      opacity: 1;
+      transition: transform 0.2s ease;
+    }
+    body.light .toggle .icon.moon,
+    body:not(.light) .toggle .icon.sun {
+      display: none;
+    }
+    .title {
+      margin: 14px 0 8px;
+      font-size: 32px;
+      font-weight: 700;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .title-wrap {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin: 14px 0 8px;
+    }
+    .title-wrap .title {
+      margin: 0;
+    }
+    .grid {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      position: relative;
+      z-index: 2;
+      perspective: 900px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      box-shadow: 0 12px 24px var(--shadow);
+      --rx: 0deg;
+      --ry: 0deg;
+      --lift: 0px;
+      transform: translateY(var(--lift)) rotateX(var(--rx)) rotateY(var(--ry));
+      transform-style: preserve-3d;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.3s ease, border-color 0.3s ease;
+    }
+    .card:hover {
+      --lift: -3px;
+      box-shadow: 0 18px 36px var(--shadow);
+    }
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+    .btn {
+      appearance: none;
+      border: 0;
+      background: linear-gradient(135deg, var(--accent), #2cc7ff);
+      color: #081118;
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      box-shadow: 0 10px 24px rgba(44, 199, 255, 0.25);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      box-shadow: none;
+    }
+    .btn:hover { transform: none; }
+    .btn::after {
+      content: "";
+      position: absolute;
+      inset: -30% -30%;
+      background: radial-gradient(220px 60px at 30% 30%, rgba(255, 255, 255, 0.35), transparent 60%);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+    .btn:hover::after { opacity: 1; }
+    .meta {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .list {
+      display: grid;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .list-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      font-size: 13px;
+    }
+    .muted { color: var(--muted); }
+    footer {
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+      padding: 8px 0 24px;
+    }
+    .download {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      gap: 0;
+      border-radius: 10px;
+      overflow: visible;
+      background: linear-gradient(135deg, var(--accent), #2cc7ff);
+      box-shadow: 0 10px 24px rgba(44, 199, 255, 0.25);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      --rx: 0deg;
+      --ry: 0deg;
+      transform: translateY(0) rotateX(var(--rx)) rotateY(var(--ry)) translateZ(0);
+      transform-style: preserve-3d;
+      z-index: 2;
+    }
+    .download:hover {
+      transform: translateY(-1px) rotateX(var(--rx)) rotateY(var(--ry));
+    }
+    .download .btn,
+    .download .download-toggle {
+      background: transparent;
+      box-shadow: none;
+    }
+    .download:hover {
+      box-shadow: 0 16px 32px rgba(44, 199, 255, 0.3);
+    }
+    .download:hover .download-main,
+    .download:hover .download-toggle {
+      box-shadow: 0 12px 26px rgba(44, 199, 255, 0.3);
+    }
+    .download-main,
+    .download-toggle {
+      transition: box-shadow 0.15s ease;
+      transform: translateZ(6px);
+    }
+    .download-toggle {
+      display: inline-flex;
+      align-items: center;
+      border: 0;
+      outline: none;
+      appearance: none;
+      -webkit-appearance: none;
+      box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.2);
+      padding: 10px 12px;
+      border-radius: 0 10px 10px 0;
+      background: linear-gradient(135deg, var(--accent), #2cc7ff);
+      color: #081118;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.15s ease;
+    }
+    .download-toggle:hover { transform: translateZ(6px); }
+    body.light .download-toggle {
+      box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.08);
+    }
+    .download-main {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 10px 0 0 10px;
+    }
+    .menu {
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 0;
+      min-width: 200px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 6px;
+      box-shadow: 0 18px 32px var(--shadow);
+      z-index: 30;
+      opacity: 0;
+      transform: translateY(-6px) scale(0.98);
+      pointer-events: none;
+      transition: opacity 0.18s ease, transform 0.18s ease;
+      transform-origin: top left;
+      --rx: 0deg;
+      --ry: 0deg;
+    }
+    .menu.open {
+      opacity: 1;
+      transform: translateY(0) scale(1) rotateX(var(--rx)) rotateY(var(--ry)) translateZ(20px);
+      pointer-events: auto;
+    }
+    .menu button {
+      width: 100%;
+      background: transparent;
+      border: 0;
+      color: var(--text);
+      padding: 8px 10px;
+      text-align: left;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .menu button:hover {
+      background: rgba(255, 255, 255, 0.06);
+    }
+    body.light .menu button:hover {
+      background: rgba(76, 125, 255, 0.14);
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <div class="toolbar">
+        <div class="brand">
+          <div class="badge">RecSAI · 录屏数据助手</div>
+        </div>
+        <button id="theme-toggle" class="toggle" type="button" aria-label="切换主题">
+          <svg class="icon sun" aria-hidden="true"><use href="icons.svg#sun"></use></svg>
+          <svg class="icon moon" aria-hidden="true"><use href="icons.svg#moon"></use></svg>
+        </button>
+      </div>
+      <div class="title-wrap">
+        <img class="brand-logo" src="preferences-color.ico" alt="RecSAI" />
+        <h1 class="title">RecSAI</h1>
+      </div>
+      <p class="subtitle">
+        RecSAI 是一款面向 SAI2 录屏文件的管理与预览工具，提供快速检索、预览与导出能力，让录制内容更易整理与回溯。
+      </p>
+      <div class="actions">
+        <div class="download" id="download-wrap">
+          <button class="btn download-main" id="download-btn" type="button">
+            <span id="download-label">下载 stable 安装包</span>
+          </button>
+          <button class="download-toggle" id="download-toggle" type="button" aria-label="选择版本">▾</button>
+          <div class="menu" id="download-menu">
+            <button type="button" data-channel="stable">下载 stable 安装包</button>
+            <button type="button" data-channel="beta">下载 beta 安装包</button>
+          </div>
+        </div>
+      </div>
+      <div class="meta">提示：应用会在检测到新版本后自动下载并替换文件，便携/未安装模式也支持更新。</div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>核心能力</h3>
+        <p>聚焦录屏文件的检索、预览与导出，让内容管理更清晰。</p>
+        <div class="list">
+          <div class="list-item"><span>快速检索</span><span class="muted">更高效</span></div>
+          <div class="list-item"><span>即时预览</span><span class="muted">更直观</span></div>
+          <div class="list-item"><span>导出管理</span><span class="muted">更省心</span></div>
+          <div class="list-item"><span>缩略图预览</span><span class="muted">更直观</span></div>
+          <div class="list-item"><span>一键导出视频</span><span class="muted">更省时</span></div>
+          <div class="list-item"><span>片段整理</span><span class="muted">更有序</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>适用场景</h3>
+        <p>适合需要高效整理 SAI2 录屏内容的用户。</p>
+        <div class="list">
+          <div class="list-item"><span>长时间录制</span><span class="muted">快速定位片段</span></div>
+          <div class="list-item"><span>内容复盘</span><span class="muted">批量预览筛选</span></div>
+          <div class="list-item"><span>素材归档</span><span class="muted">统一导出管理</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>更新说明</h3>
+        <p>应用内更新自动完成，必要时会提示重启。</p>
+        <div class="list">
+          <div class="list-item"><span>自动检查</span><span class="muted">按需下载</span></div>
+          <div class="list-item"><span>增量优先</span><span class="muted">节省流量</span></div>
+          <div class="list-item"><span>失败回退</span><span class="muted">下载完整包</span></div>
+          <div class="list-item"><span>便携模式</span><span class="muted">可更新</span></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>RecSAI · Updates</footer>
+  </div>
+
+  <script>
+    function applyTheme(mode) {
+      document.body.classList.toggle("light", mode === "light");
+      const btn = document.getElementById("theme-toggle");
+      btn.setAttribute("aria-label", mode === "light" ? "切换到深色" : "切换到亮色");
+      localStorage.setItem("theme", mode);
+    }
+
+    function initDownload() {
+      const wrap = document.getElementById("download-wrap");
+      const btn = document.getElementById("download-btn");
+      const toggle = document.getElementById("download-toggle");
+      const label = document.getElementById("download-label");
+      const menu = document.getElementById("download-menu");
+      const channelUrls = {
+        stable: "Setup-stable.exe",
+        beta: "ReadSAI2-beta-Setup.exe"
+      };
+
+      const triggerDownload = (url) => {
+        const iframe = document.createElement("iframe");
+        iframe.style.display = "none";
+        iframe.src = url;
+        document.body.appendChild(iframe);
+        setTimeout(() => {
+          iframe.remove();
+        }, 8000);
+      };
+
+      const selectChannel = (channel) => {
+        const text = channel === "beta" ? "下载 beta 安装包" : "下载 stable 安装包";
+        label.textContent = text;
+        btn.dataset.channel = channel;
+        menu.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+      };
+
+      btn.addEventListener("click", () => {
+        const url = channelUrls[btn.dataset.channel] || channelUrls.stable;
+        triggerDownload(url);
+        menu.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+      });
+
+      toggle.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const isOpen = menu.classList.toggle("open");
+        toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      });
+
+      menu.addEventListener("click", (e) => {
+        const target = e.target;
+        if (!target || !target.dataset.channel) return;
+        selectChannel(target.dataset.channel);
+        const url = channelUrls[target.dataset.channel] || channelUrls.stable;
+        triggerDownload(url);
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!wrap.contains(e.target)) {
+          menu.classList.remove("open");
+          toggle.setAttribute("aria-expanded", "false");
+        }
+      });
+
+      selectChannel("stable");
+    }
+
+    function attachTilt(el, maxTilt, lift) {
+      if (!el) return;
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const finePointer = window.matchMedia("(pointer: fine)").matches;
+      if (reduceMotion || !finePointer) return;
+
+      let raf = null;
+      el.addEventListener("mousemove", (e) => {
+        if (raf) return;
+        raf = requestAnimationFrame(() => {
+          const rect = el.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          const dx = (x / rect.width) * 2 - 1;
+          const dy = (y / rect.height) * 2 - 1;
+          el.style.setProperty("--ry", `${dx * maxTilt}deg`);
+          el.style.setProperty("--rx", `${-dy * maxTilt}deg`);
+          raf = null;
+        });
+      });
+      el.addEventListener("mouseleave", () => {
+        el.style.setProperty("--rx", "0deg");
+        el.style.setProperty("--ry", "0deg");
+        if (lift) {
+          el.style.setProperty("--lift", "0px");
+        }
+      });
+      if (lift) {
+        el.addEventListener("mouseenter", () => {
+          el.style.setProperty("--lift", lift);
+        });
+      }
+    }
+
+    function initCardTilt() {
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const finePointer = window.matchMedia("(pointer: fine)").matches;
+      if (reduceMotion || !finePointer) return;
+
+      const maxTilt = 4;
+      document.querySelectorAll(".card").forEach((card) => {
+        attachTilt(card, maxTilt, "-3px");
+      });
+      attachTilt(document.querySelector(".hero"), 5, "-2px");
+      const download = document.querySelector(".download");
+      attachTilt(download, 2, "-1px");
+      attachTilt(document.querySelector(".menu"), 2, "0px");
+    }
+
+    function init() {
+      const stored = localStorage.getItem("theme") || "light";
+      applyTheme(stored);
+      const toggle = document.getElementById("theme-toggle");
+      toggle.addEventListener("click", () => {
+        const next = document.body.classList.contains("light") ? "dark" : "light";
+        applyTheme(next);
+      });
+      initDownload();
+      initCardTilt();
+    }
+
+    init();
+  </script>
+</body>
+</html>
