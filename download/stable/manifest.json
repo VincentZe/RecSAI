@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.2.1906",
+    "version":  "26.2.1907",
     "files":  [
                   {
                       "path":  "ffmpeg.exe",
@@ -28,7 +28,7 @@
                   },
                   {
                       "path":  "ReadSAI2.exe",
-                      "sha256":  "e17bede0a47b42a4e514f2deef8d88c038b24fb81a7330ed0f4ce3de1426f3a3",
+                      "sha256":  "4e17687b67d69fc25a02f8b440ef41f1e03171dd52e8b8f42b75ee550e8339f4",
                       "size":  1416704
                   },
                   {
@@ -47,5 +47,5 @@
                       "size":  7168
                   }
               ],
-    "generatedAtUtc":  "2026-02-19T15:07:14.5747854Z"
+    "generatedAtUtc":  "2026-02-19T15:08:46.1246029Z"
 }
