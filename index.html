@@ -446,27 +446,47 @@
       const toggle = document.getElementById("download-toggle");
       const label = document.getElementById("download-label");
       const menu = document.getElementById("download-menu");
-      const channelUrls = {
-        stable: "Setup-stable.exe",
-        beta: "ReadSAI2-beta-Setup.exe"
-      };
+      const packId = "ReadSAI2";
+      const channelUrls = { stable: null, beta: null };
+      const channelVersions = { stable: null, beta: null };
 
       const triggerDownload = (url) => {
-        const iframe = document.createElement("iframe");
-        iframe.style.display = "none";
-        iframe.src = url;
-        document.body.appendChild(iframe);
-        setTimeout(() => {
-          iframe.remove();
-        }, 8000);
+        if (!url) {
+          alert("更新包尚未就绪，请稍后再试。");
+          return;
+        }
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "";
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+      };
+
+      const refreshChannel = async (channel) => {
+        try {
+          const resp = await fetch(`download/${channel}/manifest.json?ts=${Date.now()}`);
+          if (!resp.ok) throw new Error("manifest not found");
+          const json = await resp.json();
+          if (json && json.version) {
+            channelVersions[channel] = json.version;
+            channelUrls[channel] = `download/${channel}/${packId}-${json.version}.zip`;
+          }
+        } catch (err) {
+          console.warn("Failed to load manifest for", channel, err);
+        }
       };
 
       const selectChannel = (channel) => {
+        const version = channelVersions[channel];
         const text = channel === "beta" ? "下载 beta 安装包" : "下载 stable 安装包";
         label.textContent = text;
         btn.dataset.channel = channel;
         menu.classList.remove("open");
         toggle.setAttribute("aria-expanded", "false");
+        if (version) {
+          label.textContent = `${text} (v${version})`;
+        }
       };
 
       btn.addEventListener("click", () => {
@@ -497,7 +517,8 @@
         }
       });
 
-      selectChannel("stable");
+      refreshChannel("stable").then(() => selectChannel("stable"));
+      refreshChannel("beta");
     }
 
     function attachTilt(el, maxTilt, lift) {
