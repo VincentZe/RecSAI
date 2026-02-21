@@ -1,0 +1,46 @@
+﻿{
+    "version":  "26.2.2223",
+    "files":  [
+                  {
+                      "path":  "Microsoft.WindowsAPICodePack.dll",
+                      "sha256":  "21e140dcafa3e251373a712423bb111570737e95e4dcfb6f56868d7086af7686",
+                      "size":  44486
+                  },
+                  {
+                      "path":  "Microsoft.WindowsAPICodePack.Shell.dll",
+                      "sha256":  "6ea25be49a4e96c43c20bc29eb1ced078f4e0bcec4673ce722271c77bc2fa121",
+                      "size":  185018
+                  },
+                  {
+                      "path":  "Microsoft.WindowsAPICodePack.ShellExtensions.dll",
+                      "sha256":  "c21bc4847ac3c75db64b5f7afeb0fcb0e22ba436b7db80692523b4810b046d22",
+                      "size":  15564
+                  },
+                  {
+                      "path":  "Newtonsoft.Json.dll",
+                      "sha256":  "f0c07af0e84d4dd4da4bd7823ba4535bc0481b3bf623ed40b659b68147a6bb75",
+                      "size":  272917
+                  },
+                  {
+                      "path":  "ReadSAI2.ThumbnailProvider.dll",
+                      "sha256":  "ab8a9de6b3db8a40aa16735b215d1f346cc1db962ab0b0915f7a8e5c34e31678",
+                      "size":  4833
+                  },
+                  {
+                      "path":  "RecSAI.exe",
+                      "sha256":  "f505ed551184b8141d0a769949bd9c462bf5dc31ce813d2beebf1eca39fa9605",
+                      "size":  1313595
+                  },
+                  {
+                      "path":  "RecSAI.ThumbnailProvider.dll",
+                      "sha256":  "dc3c18be366d9fde1f4d2b37e47264c7ec515dbbe9ec3e4345586843ce91f6ff",
+                      "size":  4824
+                  },
+                  {
+                      "path":  "TransTextbox.dll",
+                      "sha256":  "44291a9cadf9e9fca08175934623d4df1a6730389f407c5b7223da326ae29cfa",
+                      "size":  3140
+                  }
+              ],
+    "generatedAtUtc":  "2026-02-21T21:00:38.6788315Z"
+}
