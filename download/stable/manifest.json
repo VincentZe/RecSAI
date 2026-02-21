@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.2.2153",
+    "version":  "26.2.2203",
     "files":  [
                   {
                       "path":  "Microsoft.WindowsAPICodePack.dll",
@@ -23,8 +23,8 @@
                   },
                   {
                       "path":  "ReadSAI2.exe",
-                      "sha256":  "e8973b26e1d45b1ccd64e4cb3f10ecffb437a6c05eaa4e5b6dafb1ca306b1b42",
-                      "size":  1286201
+                      "sha256":  "bfdfd77f2e05196fd083fcd00511564d0f6274804a6bfd20f46819be05f97917",
+                      "size":  1287721
                   },
                   {
                       "path":  "ReadSAI2.ThumbnailProvider.dll",
@@ -37,5 +37,5 @@
                       "size":  3140
                   }
               ],
-    "generatedAtUtc":  "2026-02-21T05:20:21.3115199Z"
+    "generatedAtUtc":  "2026-02-21T17:49:50.0465116Z"
 }
