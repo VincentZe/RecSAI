@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.2.2153",
+    "version":  "26.3.102",
     "files":  [
                   {
                       "path":  "Microsoft.WindowsAPICodePack.dll",
@@ -22,14 +22,14 @@
                       "size":  272917
                   },
                   {
-                      "path":  "ReadSAI2.exe",
-                      "sha256":  "e8973b26e1d45b1ccd64e4cb3f10ecffb437a6c05eaa4e5b6dafb1ca306b1b42",
-                      "size":  1286201
+                      "path":  "RecSAI.exe",
+                      "sha256":  "76d9f4caa2c9d0cca5d20fba7b021584384a534351464d7b27cf29b413d73ade",
+                      "size":  1337227
                   },
                   {
-                      "path":  "ReadSAI2.ThumbnailProvider.dll",
-                      "sha256":  "ab8a9de6b3db8a40aa16735b215d1f346cc1db962ab0b0915f7a8e5c34e31678",
-                      "size":  4833
+                      "path":  "RecSAI.ThumbnailProvider.dll",
+                      "sha256":  "dc3c18be366d9fde1f4d2b37e47264c7ec515dbbe9ec3e4345586843ce91f6ff",
+                      "size":  4824
                   },
                   {
                       "path":  "TransTextbox.dll",
@@ -37,5 +37,5 @@
                       "size":  3140
                   }
               ],
-    "generatedAtUtc":  "2026-02-21T05:20:21.3115199Z"
+    "generatedAtUtc":  "2026-03-01T10:51:05.5346335Z"
 }
