@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.3.208",
+    "version":  "26.3.223",
     "files":  [
                   {
                       "path":  "Microsoft.WindowsAPICodePack.dll",
@@ -23,8 +23,8 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "53d5e732b30a118a5e4e1ef193093966eb2dc7da295493e2757989707bf88706",
-                      "size":  1338892
+                      "sha256":  "0888ce589ccfb67e01205a1d1cfa24db22707e860a1d74435f817072f5934da8",
+                      "size":  1344445
                   },
                   {
                       "path":  "RecSAI.ThumbnailProvider.dll",
@@ -37,5 +37,5 @@
                       "size":  3140
                   }
               ],
-    "generatedAtUtc":  "2026-03-02T09:03:47.6975940Z"
+    "generatedAtUtc":  "2026-03-02T10:49:17.7963374Z"
 }
