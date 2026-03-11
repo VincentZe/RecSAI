@@ -1,16 +1,6 @@
 ﻿{
-    "version":  "26.3.1140",
+    "version":  "26.3.1144",
     "files":  [
-                  {
-                      "path":  "history_recording_filter.json",
-                      "sha256":  "0501886f6ffd7bb4c0258a5f18098859528d038900d316e5d766415b24d35891",
-                      "size":  97
-                  },
-                  {
-                      "path":  "history_triplet_labels.json",
-                      "sha256":  "3413044ee129f64d817a059dca18670eb89ada23a7d7adbe694fe0aacfffede5",
-                      "size":  298
-                  },
                   {
                       "path":  "Microsoft.WindowsAPICodePack.dll",
                       "sha256":  "21e140dcafa3e251373a712423bb111570737e95e4dcfb6f56868d7086af7686",
@@ -32,14 +22,9 @@
                       "size":  272917
                   },
                   {
-                      "path":  "project_recording_filter.json",
-                      "sha256":  "4d582fcf4559368378fb1678c71770410c9c73b6d0751c6551cf88f61b42a575",
-                      "size":  80
-                  },
-                  {
                       "path":  "RecSAI.exe",
-                      "sha256":  "3d7e1624fd736e0cddbc0e6cf28d278d23759960174ae107b6d673d3f8ecf7f2",
-                      "size":  1387322
+                      "sha256":  "beb550a6888e8d689799699b6c09ac5ae975060dfafa5cb6b73a0aa02b8ca36a",
+                      "size":  1389039
                   },
                   {
                       "path":  "RecSAI.ThumbnailProvider.dll",
@@ -52,5 +37,5 @@
                       "size":  3140
                   }
               ],
-    "generatedAtUtc":  "2026-03-11T10:15:43.1952757Z"
+    "generatedAtUtc":  "2026-03-11T12:33:46.6295192Z"
 }
