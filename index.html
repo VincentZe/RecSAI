@@ -446,9 +446,46 @@
       const toggle = document.getElementById("download-toggle");
       const label = document.getElementById("download-label");
       const menu = document.getElementById("download-menu");
-      const packId = "RecSAI";
+      const packagePrefixes = ["RecSAI", "ReadSAI2"];
       const channelUrls = { stable: null, beta: null };
       const channelVersions = { stable: null, beta: null };
+
+      const stripBom = (text) => {
+        if (!text) return "";
+        return text.charCodeAt(0) === 0xfeff ? text.slice(1) : text;
+      };
+
+      const fetchJson = async (url) => {
+        const resp = await fetch(`${url}?ts=${Date.now()}`);
+        if (!resp.ok) throw new Error("manifest not found");
+        return JSON.parse(stripBom(await resp.text()));
+      };
+
+      const fileExists = async (url) => {
+        try {
+          const head = await fetch(`${url}?ts=${Date.now()}`, { method: "HEAD" });
+          if (head.ok) return true;
+          if (head.status !== 405) return false;
+        } catch (err) {
+        }
+
+        try {
+          const get = await fetch(`${url}?ts=${Date.now()}`);
+          return get.ok;
+        } catch (err) {
+          return false;
+        }
+      };
+
+      const resolvePackageUrl = async (channel, version) => {
+        for (const prefix of packagePrefixes) {
+          const candidate = `download/${channel}/${prefix}-${version}.zip`;
+          if (await fileExists(candidate)) {
+            return candidate;
+          }
+        }
+        return null;
+      };
 
       const triggerDownload = (url) => {
         if (!url) {
@@ -465,12 +502,10 @@
 
       const refreshChannel = async (channel) => {
         try {
-          const resp = await fetch(`download/${channel}/manifest.json?ts=${Date.now()}`);
-          if (!resp.ok) throw new Error("manifest not found");
-          const json = await resp.json();
+          const json = await fetchJson(`download/${channel}/manifest.json`);
           if (json && json.version) {
             channelVersions[channel] = json.version;
-            channelUrls[channel] = `download/${channel}/${packId}-${json.version}.zip`;
+            channelUrls[channel] = await resolvePackageUrl(channel, json.version);
           }
         } catch (err) {
           console.warn("Failed to load manifest for", channel, err);
