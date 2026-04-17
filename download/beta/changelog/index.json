@@ -9,33 +9,6 @@
         "is_latest":  true
     },
     {
-        "version":  "26.4.1454",
-        "date":  "2026-04-14",
-        "title":  "Beta 鍙戝竷鐩綍琛ュ叏",
-        "package_name":  "RecSAI-26.4.1454.zip",
-        "package_url":  "RecSAI-26.4.1454.zip",
-        "manifest_url":  "manifest.26.4.1454.json",
-        "is_latest":  false
-    },
-    {
-        "version":  "26.4.1440",
-        "date":  "2026-04-13",
-        "title":  "Beta 鏋勫缓淇",
-        "package_name":  "RecSAI-26.4.1440.zip",
-        "package_url":  "RecSAI-26.4.1440.zip",
-        "manifest_url":  "manifest.26.4.1440.json",
-        "is_latest":  false
-    },
-    {
-        "version":  "26.4.1439",
-        "date":  "2026-04-13",
-        "title":  "Beta 鍔熻兘棰勮",
-        "package_name":  "RecSAI-26.4.1439.zip",
-        "package_url":  "RecSAI-26.4.1439.zip",
-        "manifest_url":  "manifest.26.4.1439.json",
-        "is_latest":  false
-    },
-    {
         "version":  "26.3.1144",
         "date":  "2026-03-11",
         "title":  "Beta 缁嗚妭鏀舵暃",

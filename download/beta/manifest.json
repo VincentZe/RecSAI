@@ -23,7 +23,7 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "b56eb4c1eb3e2803ad1e94cd8c8df68460fd8e78ca3b1ecdcb7fbc3042512bc6",
+                      "sha256":  "15051c184bedaf68cd5a24ffab672e2d65b33eca7f37808f0f6dcca5e8b23b15",
                       "size":  928875
                   },
                   {
@@ -57,5 +57,5 @@
                       "size":  3347
                   }
               ],
-    "generatedAtUtc":  "2026-04-17T17:25:29.8028032Z"
+    "generatedAtUtc":  "2026-04-17T18:17:16.1788626Z"
 }
