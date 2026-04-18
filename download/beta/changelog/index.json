@@ -1,12 +1,30 @@
 ﻿[
     {
+        "version":  "26.4.1820",
+        "date":  "2026-04-18",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.4.1820.zip",
+        "package_url":  "RecSAI-26.4.1820.zip",
+        "manifest_url":  "manifest.26.4.1820.json",
+        "is_latest":  true
+    },
+    {
+        "version":  "26.4.1818",
+        "date":  "2026-04-18",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.4.1818.zip",
+        "package_url":  "RecSAI-26.4.1818.zip",
+        "manifest_url":  "manifest.26.4.1818.json",
+        "is_latest":  false
+    },
+    {
         "version":  "26.4.1804",
         "date":  "2026-04-18",
         "title":  "版本更新",
         "package_name":  "RecSAI-26.4.1804.zip",
         "package_url":  "RecSAI-26.4.1804.zip",
         "manifest_url":  "manifest.26.4.1804.json",
-        "is_latest":  true
+        "is_latest":  false
     },
     {
         "version":  "26.3.1144",
