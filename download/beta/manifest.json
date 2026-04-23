@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.4.2346",
+    "version":  "26.4.2402",
     "files":  [
                   {
                       "path":  "Microsoft.Web.WebView2.Core.dll",
@@ -33,8 +33,8 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "d536a6555547ae877c3199e4dc06ca8a77232267140e994ff3cc8b0071103e9c",
-                      "size":  732953
+                      "sha256":  "b4f60bf8b0e80d1eb143c73dece879c1b2ae37827e007a08f9d08a766c6afe50",
+                      "size":  732950
                   },
                   {
                       "path":  "RecSAI.ThumbnailProvider.dll",
@@ -72,5 +72,5 @@
                       "size":  3856
                   }
               ],
-    "generatedAtUtc":  "2026-04-23T13:31:07.9213434Z"
+    "generatedAtUtc":  "2026-04-23T18:03:47.3158831Z"
 }

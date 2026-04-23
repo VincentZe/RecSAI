@@ -1,11 +1,11 @@
 ﻿[
     {
-        "version":  "26.4.2346",
-        "date":  "2026-04-23",
+        "version":  "26.4.2402",
+        "date":  "2026-04-24",
         "title":  "版本更新",
-        "package_name":  "RecSAI-26.4.2346.zip",
-        "package_url":  "RecSAI-26.4.2346.zip",
-        "manifest_url":  "manifest.26.4.2346.json",
+        "package_name":  "RecSAI-26.4.2402.zip",
+        "package_url":  "RecSAI-26.4.2402.zip",
+        "manifest_url":  "manifest.26.4.2402.json",
         "is_latest":  true
     },
     {
