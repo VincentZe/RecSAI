@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.5.1027",
+    "version":  "26.5.1028",
     "files":  [
                   {
                       "path":  "Microsoft.Web.WebView2.Core.dll",
@@ -177,5 +177,5 @@
                       "size":  598
                   }
               ],
-    "generatedAtUtc":  "2026-05-10T12:54:13.9276062Z"
+    "generatedAtUtc":  "2026-05-10T13:08:01.9856076Z"
 }
