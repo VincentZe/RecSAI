@@ -366,7 +366,7 @@
     <section class="hero">
       <div class="toolbar">
         <div class="brand">
-          <div class="badge">RecSAI · 录屏数据助手</div>
+          <div class="badge">RecSAI · SAI2 创作记录助手</div>
         </div>
         <button id="theme-toggle" class="toggle" type="button" aria-label="切换主题">
           <svg class="icon sun" aria-hidden="true"><use href="icons.svg#sun"></use></svg>
@@ -378,53 +378,57 @@
         <h1 class="title">RecSAI</h1>
       </div>
       <p class="subtitle">
-        RecSAI 是一款面向 SAI2 录屏文件的管理与预览工具，提供快速检索、预览与导出能力，让录制内容更易整理与回溯。
+        RecSAI 用于记录、预览和导出 SAI2 创作过程，保存画布画面、历史变化和项目标识，方便后续回看、整理与生成视频。
       </p>
       <div class="actions">
         <div class="download" id="download-wrap">
           <button class="btn download-main" id="download-btn" type="button">
-            <span id="download-label">下载 stable 安装包</span>
+            <span id="download-label">下载稳定版</span>
           </button>
           <button class="download-toggle" id="download-toggle" type="button" aria-label="选择版本">▾</button>
           <div class="menu" id="download-menu">
-            <button type="button" data-channel="stable">下载 stable 安装包</button>
-            <button type="button" data-channel="beta">下载 beta 安装包</button>
+            <button type="button" data-channel="stable">下载稳定版</button>
+            <button type="button" data-channel="beta">下载测试版</button>
           </div>
         </div>
       </div>
-      <div class="meta">提示：应用会在检测到新版本后自动下载并替换文件，便携/未安装模式也支持更新。</div>
+      <div class="meta">更新包支持多源下载与 SHA-256 校验；应用内更新会自动完成文件替换，失败时尽量恢复原文件。</div>
     </section>
 
     <section class="grid">
       <div class="card">
-        <h3>核心能力</h3>
-        <p>聚焦录屏文件的检索、预览与导出，让内容管理更清晰。</p>
+        <h3>记录内容</h3>
+        <p>记录来自 SAI2 运行时的画布状态，并写入可回放的 .recsai 容器。</p>
         <div class="list">
-          <div class="list-item"><span>快速检索</span><span class="muted">更高效</span></div>
-          <div class="list-item"><span>即时预览</span><span class="muted">更直观</span></div>
-          <div class="list-item"><span>导出管理</span><span class="muted">更省心</span></div>
-          <div class="list-item"><span>缩略图预览</span><span class="muted">更直观</span></div>
-          <div class="list-item"><span>一键导出视频</span><span class="muted">更省时</span></div>
-          <div class="list-item"><span>片段整理</span><span class="muted">更有序</span></div>
+          <div class="list-item"><span>画布画面</span><span class="muted">长边默认 2048px</span></div>
+          <div class="list-item"><span>历史变化</span><span class="muted">按操作触发</span></div>
+          <div class="list-item"><span>项目标识</span><span class="muted">画布名 / 工程名</span></div>
+          <div class="list-item"><span>缩略图</span><span class="muted">资源管理器预览</span></div>
+          <div class="list-item"><span>压缩格式</span><span class="muted">Tile / Zstd / JPEG</span></div>
+          <div class="list-item"><span>容器结构</span><span class="muted">分段 .recsai</span></div>
         </div>
       </div>
       <div class="card">
-        <h3>适用场景</h3>
-        <p>适合需要高效整理 SAI2 录屏内容的用户。</p>
+        <h3>SAI2 支持</h3>
+        <p>按 SAI2 可执行文件版本自动选择读取规则，覆盖当前维护的 2018 与 2024 系列。</p>
         <div class="list">
-          <div class="list-item"><span>长时间录制</span><span class="muted">快速定位片段</span></div>
-          <div class="list-item"><span>内容复盘</span><span class="muted">批量预览筛选</span></div>
-          <div class="list-item"><span>素材归档</span><span class="muted">统一导出管理</span></div>
+          <div class="list-item"><span>SAI2 2018 系列</span><span class="muted">旧版规则</span></div>
+          <div class="list-item"><span>SAI2 2020+</span><span class="muted">新版规则</span></div>
+          <div class="list-item"><span>SAI2 2024 系列</span><span class="muted">当前主线</span></div>
+          <div class="list-item"><span>版本识别</span><span class="muted">自动检测</span></div>
+          <div class="list-item"><span>升级提示</span><span class="muted">可能需适配</span></div>
         </div>
       </div>
       <div class="card">
         <h3>更新说明</h3>
-        <p>应用内更新自动完成，必要时会提示重启。</p>
+        <p>应用内更新会优先使用国内可达源，并在下载和替换阶段做校验。</p>
         <div class="list">
-          <div class="list-item"><span>自动检查</span><span class="muted">按需下载</span></div>
-          <div class="list-item"><span>增量优先</span><span class="muted">节省流量</span></div>
-          <div class="list-item"><span>失败回退</span><span class="muted">下载完整包</span></div>
-          <div class="list-item"><span>便携模式</span><span class="muted">可更新</span></div>
+          <div class="list-item"><span>稳定版</span><span class="muted">推荐日常使用</span></div>
+          <div class="list-item"><span>测试版</span><span class="muted">提前体验新功能</span></div>
+          <div class="list-item"><span>多源下载</span><span class="muted">国内优先</span></div>
+          <div class="list-item"><span>文件校验</span><span class="muted">SHA-256</span></div>
+          <div class="list-item"><span>失败回滚</span><span class="muted">恢复原文件</span></div>
+          <div class="list-item"><span>便携模式</span><span class="muted">直接更新</span></div>
         </div>
       </div>
     </section>
@@ -514,7 +518,7 @@
 
       const selectChannel = (channel) => {
         const version = channelVersions[channel];
-        const text = channel === "beta" ? "下载 beta 安装包" : "下载 stable 安装包";
+        const text = channel === "beta" ? "下载测试版" : "下载稳定版";
         label.textContent = text;
         btn.dataset.channel = channel;
         menu.classList.remove("open");

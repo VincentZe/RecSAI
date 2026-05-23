@@ -4,3 +4,8 @@
 !.dev.vars.example
 .env*
 !.env.example
+
+# WebUI is distributed as files/webui/__package.zip.
+/public/download/*/files/webui/*
+!/public/download/*/files/webui/
+!/public/download/*/files/webui/__package.zip
