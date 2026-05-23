@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.5.2341",
+    "version":  "26.5.2401",
     "files":  [
                   {
                       "path":  "Microsoft.Web.WebView2.Core.dll",
@@ -33,12 +33,12 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "7079ced5a002b4f5be8ba6c31b7ce77649d15be930c0b997f37ad0ac47e1ff0d",
-                      "size":  848589
+                      "sha256":  "6fed95291a21b443ffed2fd528fb47bed6db77c652ea39e376032e72a216f867",
+                      "size":  848918
                   },
                   {
                       "path":  "RecSAI.Sai2ThumbnailProvider.dll",
-                      "sha256":  "1d60c7b39e620ebe3d4f7981e4080b640f628e23adfed633e934a15b3c5892b0",
+                      "sha256":  "321025eeb8ad8cd4f444b0e3ba293de7f468a52303cd16641aa1f801b8f0ab71",
                       "size":  95712
                   },
                   {
@@ -98,5 +98,5 @@
                       "type":  "webui-package"
                   }
               ],
-    "generatedAtUtc":  "2026-05-23T15:57:06.7290198Z"
+    "generatedAtUtc":  "2026-05-23T16:49:12.8709705Z"
 }
