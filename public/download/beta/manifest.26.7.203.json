@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "26.7.201",
+    "version":  "26.7.203",
     "files":  [
                   {
                       "path":  "Diagnose-Sai2ThumbnailProvider.ps1",
-                      "sha256":  "ee8dde80bad37b89682ad1df60c58024cf26ff437317d5b8effbad131ed2c1bb",
-                      "size":  6509
+                      "sha256":  "7d602d4e63e1c9dc7f38b0c81364ddb2fba103b7b5d2c794ad3390ac70d3302d",
+                      "size":  6711
                   },
                   {
                       "path":  "libx264-164.dll",
@@ -53,8 +53,8 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "28e984ea793800ac277154ce4db7af1679e9ec8c2a29822365e354b8ad8b6be6",
-                      "size":  924502
+                      "sha256":  "b23b4f95b6f15542636b2d523f629e8e12521323e2e0c77b92aea0707efc9477",
+                      "size":  925616
                   },
                   {
                       "path":  "RecSAI.Sai2ThumbnailProvider.dll",
@@ -63,13 +63,13 @@
                   },
                   {
                       "path":  "RecSAI.ThumbnailProvider.dll",
-                      "sha256":  "1dee54eb402d0b01e6efc4307b6c5ed1abe2e81be7fce22edfd9d4d34d317924",
-                      "size":  51440
+                      "sha256":  "98ee3ea67a97641c8d2786547c74b8065df23376ccec81adc9c6f8cc1d7ceebb",
+                      "size":  51382
                   },
                   {
                       "path":  "Register-Sai2ThumbnailProvider.ps1",
-                      "sha256":  "33928f6c5a79f7fb0e49c16489f5c4802a1d924ba691036a1d754b73feb30bbe",
-                      "size":  2152
+                      "sha256":  "8923b2a5692519da7e54725692e65fdfe5954bf44c4ba9cb66b74bf214495c95",
+                      "size":  2598
                   },
                   {
                       "path":  "sai2_runtime_profiles.json",
@@ -103,8 +103,8 @@
                   },
                   {
                       "path":  "Unregister-Sai2ThumbnailProvider.ps1",
-                      "sha256":  "b231482f9c2f18d9621cf103a48c9c9e45d8904dff29905e17501a2bdc222720",
-                      "size":  1793
+                      "sha256":  "a31343bc0fc50c869840c8e7b45575a8d519478c3b7a496bfaddfb79f86b1730",
+                      "size":  2103
                   },
                   {
                       "path":  "webui.pkg",
@@ -152,5 +152,5 @@
                       "size":  95742
                   }
               ],
-    "generatedAtUtc":  "2026-07-02T13:32:35.3309018Z"
+    "generatedAtUtc":  "2026-07-02T15:18:30.0238601Z"
 }
