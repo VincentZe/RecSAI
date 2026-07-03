@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.7.301",
+    "version":  "26.7.400",
     "files":  [
                   {
                       "path":  "Diagnose-Sai2ThumbnailProvider.ps1",
@@ -53,8 +53,8 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "476fbe05b772460b4f6ad6b9708ed9bfbcf4667248a0c7eaa5e89c1cc221ec46",
-                      "size":  933162
+                      "sha256":  "750538ccbbe79345f36fe0bad6fb8d2e242acaa0e6b55a03737bdc97ac43db75",
+                      "size":  933943
                   },
                   {
                       "path":  "RecSAI.Sai2ThumbnailProvider.dll",
@@ -147,5 +147,5 @@
                       "size":  95742
                   }
               ],
-    "generatedAtUtc":  "2026-07-03T14:03:17.3349584Z"
+    "generatedAtUtc":  "2026-07-03T16:10:29.9371367Z"
 }
