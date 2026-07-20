@@ -1,11 +1,11 @@
 ﻿[
     {
-        "version":  "26.7.2100",
+        "version":  "26.7.2101",
         "date":  "2026-07-21",
         "title":  "版本更新",
-        "package_name":  "RecSAI-26.7.2100.zip",
-        "package_url":  "RecSAI-26.7.2100.zip",
-        "manifest_url":  "manifest.26.7.2100.json",
+        "package_name":  "RecSAI-26.7.2101.zip",
+        "package_url":  "RecSAI-26.7.2101.zip",
+        "manifest_url":  "manifest.26.7.2101.json",
         "is_latest":  true
     },
     {

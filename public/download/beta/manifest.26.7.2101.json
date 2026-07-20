@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.7.2100",
+    "version":  "26.7.2101",
     "files":  [
                   {
                       "path":  "Diagnose-Sai2ThumbnailProvider.ps1",
@@ -53,8 +53,8 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "506af09b661f06a01ab2655feace45d430ebe9a1ed2bf29e08e4c40c7490a613",
-                      "size":  985406
+                      "sha256":  "aaeb49f54b28342edf48f6f9e8bb3d50df9c04ec0b4dadb91712dcfcc125687b",
+                      "size":  986088
                   },
                   {
                       "path":  "RecSAI.Sai2ThumbnailProvider.dll",
@@ -63,8 +63,8 @@
                   },
                   {
                       "path":  "RecSAI.ThumbnailProvider.dll",
-                      "sha256":  "c4d0142966d495ba5343d3119e4216701d6fdb1925c0fbefa543f9f3dbbc2133",
-                      "size":  52769
+                      "sha256":  "0967bad804935e5e43ea35ec374b89fb2a3ffd6889b2dce7e946d5054cf89165",
+                      "size":  52980
                   },
                   {
                       "path":  "Register-Sai2ThumbnailProvider.ps1",
@@ -122,37 +122,22 @@
                       "size":  523796
                   },
                   {
-                      "path":  "ThumbnailProviders/recsai/1.0.0.0_0bfda43eec23abc6a19264e1/Newtonsoft.Json.dll",
+                      "path":  "ThumbnailProviders/recsai/1.0.0.0_0b111e905c8f6442face95fe/Newtonsoft.Json.dll",
                       "sha256":  "f0c07af0e84d4dd4da4bd7823ba4535bc0481b3bf623ed40b659b68147a6bb75",
                       "size":  272917
                   },
                   {
-                      "path":  "ThumbnailProviders/recsai/1.0.0.0_0bfda43eec23abc6a19264e1/RecSAI.ThumbnailProvider.dll",
-                      "sha256":  "c4d0142966d495ba5343d3119e4216701d6fdb1925c0fbefa543f9f3dbbc2133",
-                      "size":  52769
+                      "path":  "ThumbnailProviders/recsai/1.0.0.0_0b111e905c8f6442face95fe/RecSAI.ThumbnailProvider.dll",
+                      "sha256":  "46e608fed8e2c48d9d5f1d3d52b11e718750976e1fc2e362b52d2a4f68216514",
+                      "size":  52623
                   },
                   {
-                      "path":  "ThumbnailProviders/recsai/1.0.0.0_0bfda43eec23abc6a19264e1/turbojpeg.dll",
+                      "path":  "ThumbnailProviders/recsai/1.0.0.0_0b111e905c8f6442face95fe/turbojpeg.dll",
                       "sha256":  "55ba769dff4f9a5b4699e1bcd16d05bbcf2800639ed14247ba18d1cded2ebf0d",
                       "size":  265851
                   },
                   {
-                      "path":  "ThumbnailProviders/recsai/1.0.0.0_0bfda43eec23abc6a19264e1/zstd.dll",
-                      "sha256":  "8f07e1112ed283e5cd2798833e9a3c32d8961381bc36da04af57a1b0ca9bd40b",
-                      "size":  523796
-                  },
-                  {
-                      "path":  "ThumbnailProviders/recsai/1.0.0.0_e6fa18a5b49e4a04a967a6ab/Newtonsoft.Json.dll",
-                      "sha256":  "f0c07af0e84d4dd4da4bd7823ba4535bc0481b3bf623ed40b659b68147a6bb75",
-                      "size":  272917
-                  },
-                  {
-                      "path":  "ThumbnailProviders/recsai/1.0.0.0_e6fa18a5b49e4a04a967a6ab/RecSAI.ThumbnailProvider.dll",
-                      "sha256":  "9a0ee6ae1e4444ecf45b8027dbf47f89eb86a9d54fbfa53c3e81a31f003b7b07",
-                      "size":  52772
-                  },
-                  {
-                      "path":  "ThumbnailProviders/recsai/1.0.0.0_e6fa18a5b49e4a04a967a6ab/zstd.dll",
+                      "path":  "ThumbnailProviders/recsai/1.0.0.0_0b111e905c8f6442face95fe/zstd.dll",
                       "sha256":  "8f07e1112ed283e5cd2798833e9a3c32d8961381bc36da04af57a1b0ca9bd40b",
                       "size":  523796
                   },
@@ -162,5 +147,5 @@
                       "size":  100285
                   }
               ],
-    "generatedAtUtc":  "2026-07-20T16:50:35.3176962Z"
+    "generatedAtUtc":  "2026-07-20T18:00:30.8401431Z"
 }
