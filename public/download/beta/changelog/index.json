@@ -1,5 +1,4 @@
-﻿{
-    "value":  [
+﻿[
                   {
                       "version":  "26.8.722",
                       "date":  "2026-08-07",
@@ -198,6 +197,4 @@
                       "manifest_url":  "manifest.26.3.1144.json",
                       "is_latest":  false
                   }
-              ],
-    "Count":  22
-}
+]
