@@ -1,47 +1,56 @@
-[
-  {
-    "version": "26.3.226",
-    "date": "2026-03-02",
-    "title": "稳定版例行更新",
-    "package_name": "RecSAI-26.3.226.zip",
-    "package_url": "RecSAI-26.3.226.zip",
-    "manifest_url": "manifest.26.3.226.json",
-    "is_latest": true
-  },
-  {
-    "version": "26.3.104",
-    "date": "2026-03-01",
-    "title": "稳定性与导出细节调整",
-    "package_name": "RecSAI-26.3.104.zip",
-    "package_url": "RecSAI-26.3.104.zip",
-    "manifest_url": "manifest.26.3.104.json",
-    "is_latest": false
-  },
-  {
-    "version": "26.3.102",
-    "date": "2026-03-01",
-    "title": "RecSAI 正式更名版",
-    "package_name": "RecSAI-26.3.102.zip",
-    "package_url": "RecSAI-26.3.102.zip",
-    "manifest_url": "manifest.26.3.102.json",
-    "is_latest": false
-  },
-  {
-    "version": "26.2.2223",
-    "date": "2026-02-21",
-    "title": "更新通道与提示完善",
-    "package_name": "RecSAI-26.2.2223.zip",
-    "package_url": "RecSAI-26.2.2223.zip",
-    "manifest_url": "manifest.26.2.2223.json",
-    "is_latest": false
-  },
-  {
-    "version": "26.2.2215",
-    "date": "2026-02-21",
-    "title": "Toast 交互优化",
-    "package_name": "ReadSAI2-26.2.2215.zip",
-    "package_url": "ReadSAI2-26.2.2215.zip",
-    "manifest_url": "manifest.26.2.2215.json",
-    "is_latest": false
-  }
+﻿[
+    {
+        "version":  "26.8.832",
+        "date":  "2026-08-08",
+        "title":  "RecSAI 26.8 稳定版",
+        "package_name":  "RecSAI-26.8.832.zip",
+        "package_url":  "RecSAI-26.8.832.zip",
+        "manifest_url":  "manifest.26.8.832.json",
+        "is_latest":  true
+    },
+    {
+        "version":  "26.3.226",
+        "date":  "2026-03-02",
+        "title":  "稳定版例行更新",
+        "package_name":  "RecSAI-26.3.226.zip",
+        "package_url":  "RecSAI-26.3.226.zip",
+        "manifest_url":  "manifest.26.3.226.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.3.104",
+        "date":  "2026-03-01",
+        "title":  "稳定性与导出细节调整",
+        "package_name":  "RecSAI-26.3.104.zip",
+        "package_url":  "RecSAI-26.3.104.zip",
+        "manifest_url":  "manifest.26.3.104.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.3.102",
+        "date":  "2026-03-01",
+        "title":  "RecSAI 正式更名版",
+        "package_name":  "RecSAI-26.3.102.zip",
+        "package_url":  "RecSAI-26.3.102.zip",
+        "manifest_url":  "manifest.26.3.102.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.2.2223",
+        "date":  "2026-02-21",
+        "title":  "更新通道与提示完善",
+        "package_name":  "RecSAI-26.2.2223.zip",
+        "package_url":  "RecSAI-26.2.2223.zip",
+        "manifest_url":  "manifest.26.2.2223.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.2.2215",
+        "date":  "2026-02-21",
+        "title":  "Toast 交互优化",
+        "package_name":  "ReadSAI2-26.2.2215.zip",
+        "package_url":  "ReadSAI2-26.2.2215.zip",
+        "manifest_url":  "manifest.26.2.2215.json",
+        "is_latest":  false
+    }
 ]
