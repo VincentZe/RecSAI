@@ -1,11 +1,6 @@
 ﻿{
-    "version":  "26.8.719",
+    "version":  "26.8.722",
     "files":  [
-                  {
-                      "path":  "Diagnose-Sai2ThumbnailProvider.ps1",
-                      "sha256":  "106ec6ec07378256aeaf826f4d0ab599d82bd6862fc609bb261e25d8039efb96",
-                      "size":  6890
-                  },
                   {
                       "path":  "Microsoft.Web.WebView2.Core.dll",
                       "sha256":  "bb397d03342c76bd308ade82f5b7e8ced00df59459799ffc93a38c3a882b3398",
@@ -43,8 +38,8 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "0a2dd863389c02f114b64c731cdcc8ae352160c40a3afd0eb20e7913e5894b16",
-                      "size":  1027972
+                      "sha256":  "da89a8c5d5a9f9fd81efba227e927a7d10dcb00201438e08d7f92c22a22afafc",
+                      "size":  1028133
                   },
                   {
                       "path":  "RecSAI.Sai2ThumbnailProvider.dll",
@@ -55,21 +50,6 @@
                       "path":  "RecSAI.ThumbnailProvider.dll",
                       "sha256":  "39c411f9cc7a7e96c7d004d18d2445a4a6896a406b1d4bd09d980e9e8f59c845",
                       "size":  54214
-                  },
-                  {
-                      "path":  "Register-Sai2ThumbnailProvider.ps1",
-                      "sha256":  "8923b2a5692519da7e54725692e65fdfe5954bf44c4ba9cb66b74bf214495c95",
-                      "size":  2598
-                  },
-                  {
-                      "path":  "sai2_runtime_profiles.json",
-                      "sha256":  "7efd7e717db3bb3f039f71b5ad82566d07b6216061eea63ecf895ee4a481e28d",
-                      "size":  1482
-                  },
-                  {
-                      "path":  "Set-Sai2ThumbnailIcon.ps1",
-                      "sha256":  "7c43327a7e09333f9018a6d49110b1f38929c078e95384d4af9f004d65450158",
-                      "size":  1988
                   },
                   {
                       "path":  "System.Buffers.dll",
@@ -87,16 +67,6 @@
                       "size":  265851
                   },
                   {
-                      "path":  "Unlock-ThumbnailProviderDlls.ps1",
-                      "sha256":  "5cea557476fec6dd8faaf534826934782b67a282907c76e6c177895d46afc697",
-                      "size":  2880
-                  },
-                  {
-                      "path":  "Unregister-Sai2ThumbnailProvider.ps1",
-                      "sha256":  "a31343bc0fc50c869840c8e7b45575a8d519478c3b7a496bfaddfb79f86b1730",
-                      "size":  2103
-                  },
-                  {
                       "path":  "webui.pkg",
                       "sha256":  "4576feadaa490347a19ee975c6f57233c09e6a057ac247f08647fefa6bbed893",
                       "size":  431557
@@ -112,5 +82,5 @@
                       "size":  250277
                   }
               ],
-    "generatedAtUtc":  "2026-08-07T04:50:37.2115428Z"
+    "generatedAtUtc":  "2026-08-07T05:25:53.8435876Z"
 }
