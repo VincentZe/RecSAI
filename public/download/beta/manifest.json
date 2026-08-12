@@ -1,6 +1,21 @@
 ﻿{
-    "version":  "26.8.1307",
+    "version":  "26.8.1312",
     "files":  [
+                  {
+                      "path":  "jpeg62.dll",
+                      "sha256":  "9ac8d7b99fe444f120af22b45378d24e908efe35f4bbad0eb3c756d0958a155c",
+                      "size":  209658
+                  },
+                  {
+                      "path":  "libx264-164.dll",
+                      "sha256":  "865fea2fe33e537d48ad81294d06372917fe9465b4e40e641877bc94e8e084bc",
+                      "size":  780867
+                  },
+                  {
+                      "path":  "libx265.dll",
+                      "sha256":  "10893a5caaba96761c9d8f7a9bcd76f3aa86c8893c3badf36797ad13dd4bfe1c",
+                      "size":  761824
+                  },
                   {
                       "path":  "Microsoft.Web.WebView2.Core.dll",
                       "sha256":  "bb397d03342c76bd308ade82f5b7e8ced00df59459799ffc93a38c3a882b3398",
@@ -38,8 +53,8 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "2abb2f327c9ba2394c6ae1adeebcd9d6b7e2069681401f6c156ea141f9c38ee3",
-                      "size":  1037002
+                      "sha256":  "4b961b45f67d54eedaa0ac6413054868d74aba02b23ddef67e16eaa562b94da1",
+                      "size":  1037418
                   },
                   {
                       "path":  "RecSAI.Sai2ThumbnailProvider.dll",
@@ -68,8 +83,8 @@
                   },
                   {
                       "path":  "webui.pkg",
-                      "sha256":  "dc9fa1c1d4a7eb6f81ca20ecc6cdb3856db6b561d99b536a9842466c08fcaf0f",
-                      "size":  435566
+                      "sha256":  "894505fff8dec10f1dfd9514fae653e03c5ee564bd42c433e9d1108525b70504",
+                      "size":  435598
                   },
                   {
                       "path":  "WebView2Loader.dll",
@@ -82,5 +97,5 @@
                       "size":  250277
                   }
               ],
-    "generatedAtUtc":  "2026-08-12T21:18:43.5523818Z"
+    "generatedAtUtc":  "2026-08-12T22:20:30.6828165Z"
 }
