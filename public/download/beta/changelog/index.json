@@ -1,200 +1,209 @@
 ﻿[
-                  {
-                      "version":  "26.8.722",
-                      "date":  "2026-08-07",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.8.722.zip",
-                      "package_url":  "RecSAI-26.8.722.zip",
-                      "manifest_url":  "manifest.26.8.722.json",
-                      "is_latest":  true
-                  },
-                  {
-                      "version":  "26.7.2101",
-                      "date":  "2026-07-21",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.7.2101.zip",
-                      "package_url":  "RecSAI-26.7.2101.zip",
-                      "manifest_url":  "manifest.26.7.2101.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.7.1530",
-                      "date":  "2026-07-15",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.7.1530.zip",
-                      "package_url":  "RecSAI-26.7.1530.zip",
-                      "manifest_url":  "manifest.26.7.1530.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.7.1219",
-                      "date":  "2026-07-12",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.7.1219.zip",
-                      "package_url":  "RecSAI-26.7.1219.zip",
-                      "manifest_url":  "manifest.26.7.1219.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.7.600",
-                      "date":  "2026-07-06",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.7.600.zip",
-                      "package_url":  "RecSAI-26.7.600.zip",
-                      "manifest_url":  "manifest.26.7.600.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.7.403",
-                      "date":  "2026-07-04",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.7.403.zip",
-                      "package_url":  "RecSAI-26.7.403.zip",
-                      "manifest_url":  "manifest.26.7.403.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.7.400",
-                      "date":  "2026-07-04",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.7.400.zip",
-                      "package_url":  "RecSAI-26.7.400.zip",
-                      "manifest_url":  "manifest.26.7.400.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.7.203",
-                      "date":  "2026-07-02",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.7.203.zip",
-                      "package_url":  "RecSAI-26.7.203.zip",
-                      "manifest_url":  "manifest.26.7.203.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.7.106",
-                      "date":  "2026-07-01",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.7.106.zip",
-                      "package_url":  "RecSAI-26.7.106.zip",
-                      "manifest_url":  "manifest.26.7.106.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.6.3001",
-                      "date":  "2026-06-30",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.6.3001.zip",
-                      "package_url":  "RecSAI-26.6.3001.zip",
-                      "manifest_url":  "manifest.26.6.3001.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.6.1557",
-                      "date":  "2026-06-16",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.6.1557.zip",
-                      "package_url":  "RecSAI-26.6.1557.zip",
-                      "manifest_url":  "manifest.26.6.1557.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.6.440",
-                      "date":  "2026-06-04",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.6.440.zip",
-                      "package_url":  "RecSAI-26.6.440.zip",
-                      "manifest_url":  "manifest.26.6.440.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.5.3111",
-                      "date":  "2026-05-31",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.5.3111.zip",
-                      "package_url":  "RecSAI-26.5.3111.zip",
-                      "manifest_url":  "manifest.26.5.3111.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.5.2547",
-                      "date":  "2026-05-25",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.5.2547.zip",
-                      "package_url":  "RecSAI-26.5.2547.zip",
-                      "manifest_url":  "manifest.26.5.2547.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.5.2526",
-                      "date":  "2026-05-25",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.5.2526.zip",
-                      "package_url":  "RecSAI-26.5.2526.zip",
-                      "manifest_url":  "manifest.26.5.2526.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.5.2406",
-                      "date":  "2026-05-24",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.5.2406.zip",
-                      "package_url":  "RecSAI-26.5.2406.zip",
-                      "manifest_url":  "manifest.26.5.2406.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.5.1030",
-                      "date":  "2026-05-10",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.5.1030.zip",
-                      "package_url":  "RecSAI-26.5.1030.zip",
-                      "manifest_url":  "manifest.26.5.1030.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.5.107",
-                      "date":  "2026-05-01",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.5.107.zip",
-                      "package_url":  "RecSAI-26.5.107.zip",
-                      "manifest_url":  "manifest.26.5.107.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.4.2402",
-                      "date":  "2026-04-24",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.4.2402.zip",
-                      "package_url":  "RecSAI-26.4.2402.zip",
-                      "manifest_url":  "manifest.26.4.2402.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.4.1820",
-                      "date":  "2026-04-18",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.4.1820.zip",
-                      "package_url":  "RecSAI-26.4.1820.zip",
-                      "manifest_url":  "manifest.26.4.1820.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.4.1804",
-                      "date":  "2026-04-18",
-                      "title":  "版本更新",
-                      "package_name":  "RecSAI-26.4.1804.zip",
-                      "package_url":  "RecSAI-26.4.1804.zip",
-                      "manifest_url":  "manifest.26.4.1804.json",
-                      "is_latest":  false
-                  },
-                  {
-                      "version":  "26.3.1144",
-                      "date":  "2026-03-11",
-                      "title":  "Beta 缁嗚妭鏀舵暃",
-                      "package_name":  "RecSAI-26.3.1144.zip",
-                      "package_url":  "RecSAI-26.3.1144.zip",
-                      "manifest_url":  "manifest.26.3.1144.json",
-                      "is_latest":  false
-                  }
+    {
+        "version":  "26.8.1307",
+        "date":  "2026-08-13",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.8.1307.zip",
+        "package_url":  "RecSAI-26.8.1307.zip",
+        "manifest_url":  "manifest.26.8.1307.json",
+        "is_latest":  true
+    },
+    {
+        "version":  "26.8.722",
+        "date":  "2026-08-07",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.8.722.zip",
+        "package_url":  "RecSAI-26.8.722.zip",
+        "manifest_url":  "manifest.26.8.722.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.7.2101",
+        "date":  "2026-07-21",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.7.2101.zip",
+        "package_url":  "RecSAI-26.7.2101.zip",
+        "manifest_url":  "manifest.26.7.2101.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.7.1530",
+        "date":  "2026-07-15",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.7.1530.zip",
+        "package_url":  "RecSAI-26.7.1530.zip",
+        "manifest_url":  "manifest.26.7.1530.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.7.1219",
+        "date":  "2026-07-12",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.7.1219.zip",
+        "package_url":  "RecSAI-26.7.1219.zip",
+        "manifest_url":  "manifest.26.7.1219.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.7.600",
+        "date":  "2026-07-06",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.7.600.zip",
+        "package_url":  "RecSAI-26.7.600.zip",
+        "manifest_url":  "manifest.26.7.600.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.7.403",
+        "date":  "2026-07-04",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.7.403.zip",
+        "package_url":  "RecSAI-26.7.403.zip",
+        "manifest_url":  "manifest.26.7.403.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.7.400",
+        "date":  "2026-07-04",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.7.400.zip",
+        "package_url":  "RecSAI-26.7.400.zip",
+        "manifest_url":  "manifest.26.7.400.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.7.203",
+        "date":  "2026-07-02",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.7.203.zip",
+        "package_url":  "RecSAI-26.7.203.zip",
+        "manifest_url":  "manifest.26.7.203.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.7.106",
+        "date":  "2026-07-01",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.7.106.zip",
+        "package_url":  "RecSAI-26.7.106.zip",
+        "manifest_url":  "manifest.26.7.106.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.6.3001",
+        "date":  "2026-06-30",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.6.3001.zip",
+        "package_url":  "RecSAI-26.6.3001.zip",
+        "manifest_url":  "manifest.26.6.3001.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.6.1557",
+        "date":  "2026-06-16",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.6.1557.zip",
+        "package_url":  "RecSAI-26.6.1557.zip",
+        "manifest_url":  "manifest.26.6.1557.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.6.440",
+        "date":  "2026-06-04",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.6.440.zip",
+        "package_url":  "RecSAI-26.6.440.zip",
+        "manifest_url":  "manifest.26.6.440.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.5.3111",
+        "date":  "2026-05-31",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.5.3111.zip",
+        "package_url":  "RecSAI-26.5.3111.zip",
+        "manifest_url":  "manifest.26.5.3111.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.5.2547",
+        "date":  "2026-05-25",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.5.2547.zip",
+        "package_url":  "RecSAI-26.5.2547.zip",
+        "manifest_url":  "manifest.26.5.2547.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.5.2526",
+        "date":  "2026-05-25",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.5.2526.zip",
+        "package_url":  "RecSAI-26.5.2526.zip",
+        "manifest_url":  "manifest.26.5.2526.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.5.2406",
+        "date":  "2026-05-24",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.5.2406.zip",
+        "package_url":  "RecSAI-26.5.2406.zip",
+        "manifest_url":  "manifest.26.5.2406.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.5.1030",
+        "date":  "2026-05-10",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.5.1030.zip",
+        "package_url":  "RecSAI-26.5.1030.zip",
+        "manifest_url":  "manifest.26.5.1030.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.5.107",
+        "date":  "2026-05-01",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.5.107.zip",
+        "package_url":  "RecSAI-26.5.107.zip",
+        "manifest_url":  "manifest.26.5.107.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.4.2402",
+        "date":  "2026-04-24",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.4.2402.zip",
+        "package_url":  "RecSAI-26.4.2402.zip",
+        "manifest_url":  "manifest.26.4.2402.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.4.1820",
+        "date":  "2026-04-18",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.4.1820.zip",
+        "package_url":  "RecSAI-26.4.1820.zip",
+        "manifest_url":  "manifest.26.4.1820.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.4.1804",
+        "date":  "2026-04-18",
+        "title":  "版本更新",
+        "package_name":  "RecSAI-26.4.1804.zip",
+        "package_url":  "RecSAI-26.4.1804.zip",
+        "manifest_url":  "manifest.26.4.1804.json",
+        "is_latest":  false
+    },
+    {
+        "version":  "26.3.1144",
+        "date":  "2026-03-11",
+        "title":  "Beta 缁嗚妭鏀舵暃",
+        "package_name":  "RecSAI-26.3.1144.zip",
+        "package_url":  "RecSAI-26.3.1144.zip",
+        "manifest_url":  "manifest.26.3.1144.json",
+        "is_latest":  false
+    }
 ]
