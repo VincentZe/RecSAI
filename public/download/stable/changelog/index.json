@@ -1,12 +1,21 @@
 ﻿[
     {
+        "version":  "26.8.1400",
+        "date":  "2026-08-14",
+        "title":  "封装与预览稳定性",
+        "package_name":  "RecSAI-26.8.1400.zip",
+        "package_url":  "RecSAI-26.8.1400.zip",
+        "manifest_url":  "manifest.26.8.1400.json",
+        "is_latest":  true
+    },
+    {
         "version":  "26.8.832",
         "date":  "2026-08-08",
         "title":  "RecSAI 26.8 稳定版",
         "package_name":  "RecSAI-26.8.832.zip",
         "package_url":  "RecSAI-26.8.832.zip",
         "manifest_url":  "manifest.26.8.832.json",
-        "is_latest":  true
+        "is_latest":  false
     },
     {
         "version":  "26.3.226",
