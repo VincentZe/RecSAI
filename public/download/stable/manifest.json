@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.8.1901",
+    "version":  "26.8.2000",
     "files":  [
                   {
                       "path":  "jpeg62.dll",
@@ -53,7 +53,7 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "871a1cf0e8308da5ff4e92c2267e29cb5d485e3cd7ab36080f81af00748d4c94",
+                      "sha256":  "9ec07fe8eda669c5ccefd273131c24efd217aefe612b16bcccae80e09757ff63",
                       "size":  1037659
                   },
                   {
@@ -93,9 +93,9 @@
                   },
                   {
                       "path":  "zstd.dll",
-                      "sha256":  "56da0ea8b346b7332d6554c28479bed1f163c6c7ed4bd8120afbfda37a3b52cc",
-                      "size":  250277
+                      "sha256":  "8f07e1112ed283e5cd2798833e9a3c32d8961381bc36da04af57a1b0ca9bd40b",
+                      "size":  523796
                   }
               ],
-    "generatedAtUtc":  "2026-08-19T15:21:23.8951691Z"
+    "generatedAtUtc":  "2026-08-19T16:39:16.2971932Z"
 }
