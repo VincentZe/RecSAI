@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.8.2100",
+    "version":  "26.8.2301",
     "files":  [
                   {
                       "path":  "jpeg62.dll",
@@ -48,13 +48,13 @@
                   },
                   {
                       "path":  "recsai-video-encoder.exe",
-                      "sha256":  "b00a8bb17cf9525cbeaab06d8967c1a42fca23cfee855012ae1c9f09f0bafd4b",
-                      "size":  174282
+                      "sha256":  "ff5762671a2b8caaa3171002237fe74eb6c3b8f858f6ae602ababdd5740650d5",
+                      "size":  174693
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "b1454aa7b1e522fee312e8f6a7b7441ca3242446900b960e65694d71befaef5e",
-                      "size":  1037645
+                      "sha256":  "6ef9c3e3c0e3359c50611d468ae00f2eebaefd77a51f0fdb58d28fb8b701984a",
+                      "size":  1038387
                   },
                   {
                       "path":  "RecSAI.Sai2ThumbnailProvider.dll",
@@ -63,8 +63,8 @@
                   },
                   {
                       "path":  "RecSAI.ThumbnailProvider.dll",
-                      "sha256":  "85480abd3136e3b845becbd7e6d8063a8f1c4b67ae8355b972afab17af007b1b",
-                      "size":  54521
+                      "sha256":  "34f66dc7db0527770c8d79f76f647cab83aa8d6472f4c3c2048d1bf0e4c99dab",
+                      "size":  55273
                   },
                   {
                       "path":  "System.Buffers.dll",
@@ -93,9 +93,9 @@
                   },
                   {
                       "path":  "zstd.dll",
-                      "sha256":  "8f07e1112ed283e5cd2798833e9a3c32d8961381bc36da04af57a1b0ca9bd40b",
-                      "size":  523796
+                      "sha256":  "56da0ea8b346b7332d6554c28479bed1f163c6c7ed4bd8120afbfda37a3b52cc",
+                      "size":  250277
                   }
               ],
-    "generatedAtUtc":  "2026-08-20T16:34:04.5772645Z"
+    "generatedAtUtc":  "2026-08-22T16:25:15.7742206Z"
 }
