@@ -1,5 +1,5 @@
 {
-  "version": "26.9.1604",
+  "version": "26.9.1610",
   "files": [
     {
       "path": "jpeg62.dll",
@@ -53,8 +53,8 @@
     },
     {
       "path": "RecSAI.exe",
-      "sha256": "958220a2469bc80fa77cf3c93fa0f338311d91ff836509a4be4de312f5d00734",
-      "size": 839312
+      "sha256": "f2d0d46ee35ee49be13e6bd2a5ac8ec2c1ca65d36d69bc54626ca1dea968c4f5",
+      "size": 841474
     },
     {
       "path": "RecSAI.Sai2ThumbnailProvider.dll",
@@ -97,5 +97,5 @@
       "size": 538788
     }
   ],
-  "generatedAtUtc": "2026-09-15T17:28:07.1179539Z"
+  "generatedAtUtc": "2026-09-16T15:23:45.8735915Z"
 }
