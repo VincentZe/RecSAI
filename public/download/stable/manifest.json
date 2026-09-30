@@ -53,8 +53,8 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "e966ffdef4debccd4e65484816961a031a15fd032c9be8419a78bda10464e164",
-                      "size":  837617
+                      "sha256":  "6808b889b4c51256337993854ac585ad0f0789367d092c62afda7f33a73f05b7",
+                      "size":  839808
                   },
                   {
                       "path":  "RecSAI.Sai2ThumbnailProvider.dll",
@@ -97,5 +97,5 @@
                       "size":  523796
                   }
               ],
-    "generatedAtUtc":  "2026-09-30T04:57:05.4453708Z"
+    "generatedAtUtc":  "2026-09-30T07:21:50.6220612Z"
 }
