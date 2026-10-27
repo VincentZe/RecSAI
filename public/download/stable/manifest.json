@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.10.2713",
+    "version":  "26.10.2716",
     "files":  [
                   {
                       "path":  "jpeg62.dll",
@@ -53,8 +53,8 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "0a675ed1813c778c742b209fc5de1f8402f468d7346d3953859ca04db690cd95",
-                      "size":  930634
+                      "sha256":  "2a7531c6061c4a47be466987a221fc11a65169465f9d9f210a6242e807e5c559",
+                      "size":  935554
                   },
                   {
                       "path":  "RecSAI.Sai2ThumbnailProvider.dll",
@@ -83,8 +83,8 @@
                   },
                   {
                       "path":  "webui.pkg",
-                      "sha256":  "f2c05b157ac41632020cd2d8c7028e1a4f5fb01329156bdb01886507e24631cc",
-                      "size":  725724
+                      "sha256":  "c50cdf9050142f19165e56c20770ecbe00cd01e96be9eb5615aa93354456b06c",
+                      "size":  725786
                   },
                   {
                       "path":  "WebView2Loader.dll",
@@ -97,5 +97,5 @@
                       "size":  523796
                   }
               ],
-    "generatedAtUtc":  "2026-10-27T08:02:38.0193756Z"
+    "generatedAtUtc":  "2026-10-27T09:06:07.8517956Z"
 }
