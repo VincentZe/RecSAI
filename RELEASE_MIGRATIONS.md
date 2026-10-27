@@ -1,4 +1,4 @@
-# 发布迁移核对清单
+﻿# 发布迁移核对清单
 
 本文档只供发版人核对，旧版客户端不会读取，也不是更新协议的一部分。
 
@@ -7,6 +7,15 @@
 - 应用内更新只保证升级到当前频道最新版本，不提供历史版本回退安装。
 - 历史版本切换统一通过旧包下载完成，发版前必须确认 `changelog/index.json` 中的 `package_url` 对应文件真实存在。
 - 遇到命名、主程序、缩略图扩展或安装结构变化时，优先在这里补充说明，再决定是否允许应用内直升。
+
+## 历史包保留规则
+
+- 按频道分别整理，每个年月优先保留版本号最新的两个完整包；原本只有一个时保留一个。年月以版本号前两段为准。
+- 清理旧包前，将同月历史日志合并到当月最新保留版本，标明原版本号并去掉重复条目，保留兼容与使用提示。
+- 删除旧包时同步删除对应版本清单和已合并的独立日志，并从 `public/download/<channel>/changelog/index.json` 移除旧条目。
+- 同时清理没有对应下载包的孤立历史清单或日志；其中日志内容先合并保留。
+- 每个索引条目的下载包、版本清单和日志必须存在；当前频道的 `manifest.json`、`files/` 增量文件及最新安装包保持完整。
+- 只清理下载目录中的当前文件，不重写 Git 历史。涉及更名边界时，按下文兼容说明核对保留版本。
 
 ## ReadSAI2 -> RecSAI 更名边界
 
@@ -41,7 +50,7 @@
 
 ## 发版前检查项
 
-- `updates/download/<channel>/changelog/index.json` 已补齐 `version/date/title/package_name/package_url/manifest_url/is_latest`。
+- `public/download/<channel>/changelog/index.json` 已补齐 `version/date/title/package_name/package_url/manifest_url/is_latest`。
 - `is_latest` 只标记当前频道最新一个版本。
 - 对应 `changelog/<version>.md`、`package_url`、`manifest_url` 文件全部存在。
 - `beta` 频道如果缺少日志目录或索引，直接视为发布不完整并拦截。
