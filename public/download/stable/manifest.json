@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.10.2719",
+    "version":  "26.11.1814",
     "files":  [
                   {
                       "path":  "jpeg62.dll",
@@ -48,13 +48,13 @@
                   },
                   {
                       "path":  "recsai-video-encoder.exe",
-                      "sha256":  "ff5762671a2b8caaa3171002237fe74eb6c3b8f858f6ae602ababdd5740650d5",
-                      "size":  174693
+                      "sha256":  "8e0f9458bc801663ba8e40d763f704adb0e6ec6ad1e75ef00d0d0c7d0a721989",
+                      "size":  2027896
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "97f76089348c510f5d48d4d51ca84968abba180e4a5c065a379d2e8a7e3bb248",
-                      "size":  941855
+                      "sha256":  "09b0880e527947b19a0706eae35816ea43a79480c99b5eb89be0eea395041259",
+                      "size":  976258
                   },
                   {
                       "path":  "RecSAI.Sai2ThumbnailProvider.dll",
@@ -63,8 +63,8 @@
                   },
                   {
                       "path":  "RecSAI.ThumbnailProvider.dll",
-                      "sha256":  "8359da9aec2ecb261354d49883d40fdf4af39bdc9773244c1b14ca9753123e75",
-                      "size":  57920
+                      "sha256":  "43ebbba1009b3f51cf01eabd62bc3f498f87919a627fdf419df83057d3d5ec77",
+                      "size":  58204
                   },
                   {
                       "path":  "System.Buffers.dll",
@@ -83,8 +83,8 @@
                   },
                   {
                       "path":  "webui.pkg",
-                      "sha256":  "d02e702e422d640e0e458588ec741353b7803e4f0e28c97b49e0b3bb9082fcd5",
-                      "size":  725860
+                      "sha256":  "b01a0ec22d2440c0bafc54e6b3f6b7af02a3ee113baff3cb1286969faceac1c9",
+                      "size":  743376
                   },
                   {
                       "path":  "WebView2Loader.dll",
@@ -97,5 +97,5 @@
                       "size":  523796
                   }
               ],
-    "generatedAtUtc":  "2026-10-27T11:14:58.9387969Z"
+    "generatedAtUtc":  "2026-11-18T09:10:20.0540789Z"
 }
