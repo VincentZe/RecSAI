@@ -1,11 +1,11 @@
 ﻿[
     {
-        "version":  "26.11.2000",
+        "version":  "26.11.2001",
         "date":  "2026-11-20",
         "title":  "版本更新",
-        "package_name":  "RecSAI-26.11.2000.zip",
-        "package_url":  "RecSAI-26.11.2000.zip",
-        "manifest_url":  "manifest.26.11.2000.json",
+        "package_name":  "RecSAI-26.11.2001.zip",
+        "package_url":  "RecSAI-26.11.2001.zip",
+        "manifest_url":  "manifest.26.11.2001.json",
         "is_latest":  true
     },
     {
