@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "26.11.2001",
+    "version":  "26.11.2313",
     "files":  [
                   {
                       "path":  "jpeg62.dll",
@@ -53,18 +53,18 @@
                   },
                   {
                       "path":  "RecSAI.exe",
-                      "sha256":  "623c75086adb340d2bc3399e2ea492b13ee9428f2d85f9a23c2f7edd04d32a16",
-                      "size":  976618
+                      "sha256":  "15642ac536c4c14a503171bc005b96bdd081969c7c165e02b374a05b04dd3b1b",
+                      "size":  981043
                   },
                   {
                       "path":  "RecSAI.Sai2ThumbnailProvider.dll",
-                      "sha256":  "b96a5d316e84062417795936f4fd94bbeff86d35aa0ee47c189ef194af41ee47",
+                      "sha256":  "6862ea6db2881a3745585fdef56a5a55b394a5b66c00c7ae4c2ca2627edd1b8f",
                       "size":  100322
                   },
                   {
                       "path":  "RecSAI.ThumbnailProvider.dll",
-                      "sha256":  "43ebbba1009b3f51cf01eabd62bc3f498f87919a627fdf419df83057d3d5ec77",
-                      "size":  58204
+                      "sha256":  "2cf30b427019c723c5e7b0ea485fcbdb58c0062abd62020237801863bddde9f2",
+                      "size":  58264
                   },
                   {
                       "path":  "System.Buffers.dll",
@@ -83,8 +83,8 @@
                   },
                   {
                       "path":  "webui.pkg",
-                      "sha256":  "108e3d066019b7fa2109f6167e2565440ed15ab8e55a9c8455bc00fef7974cfa",
-                      "size":  743606
+                      "sha256":  "bf04a4bd96438b4c821a10f86954addc7739989c13ba698cfa3275c26e41688a",
+                      "size":  749208
                   },
                   {
                       "path":  "WebView2Loader.dll",
@@ -97,5 +97,5 @@
                       "size":  523796
                   }
               ],
-    "generatedAtUtc":  "2026-11-20T06:45:43.8299793Z"
+    "generatedAtUtc":  "2026-11-23T09:23:26.8251930Z"
 }
